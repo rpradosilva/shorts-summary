@@ -1,0 +1,39 @@
+{
+  "name": "shorts-summary",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "web": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  },
+  "description": "<div align=\"center\">\r     <img src=\".github/logo.png\" alt=\"Logo Repo\">\r     <h2></h2>\r     A web application to create a summary of YouTube shorts using AI.\r </div>\r <br>\r <div align=\"center\">",
+  "main": "index.html",
+  "dependencies": {
+    "esbuild": "^0.18.20",
+    "nanoid": "^3.3.6",
+    "picocolors": "^1.0.0",
+    "postcss": "^8.4.29",
+    "rollup": "^3.29.1",
+    "source-map-js": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpradosilva/shorts-summary.git"
+  },
+  "keywords": [
+    "rocketseat",
+    "ia",
+    "rocketseat-nlw"
+  ],
+  "author": "Rafael Prado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rpradosilva/shorts-summary/issues"
+  },
+  "homepage": "https://github.com/rpradosilva/shorts-summary#readme"
+}

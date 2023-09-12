@@ -18,27 +18,24 @@ Shorts Summary is a web application to create a summary of short YouTube videos 
 
 ### Features
 
-- xxxxx
+- [under construction]
 
 ## Getting Started
 
 ### Prerequisites
 
-- xxxx
+- The NodeJS is required to be able to run this project.
 
 ### Usage
 
 1. Clone repository
-
-xxxcan use to:
-
-- xxxx
-
-> xxxx
+2. Install NPM Packages `npm i`
+3. Run project `npm run web`
 
 ### Dependencies
 
 ![nodeJS](https://img.shields.io/badge/-v16.14.0-ffffff?style=social&label=nodeJS)</br>
+![vite](https://img.shields.io/badge/-v4.4.5-ffffff?style=social&label=Vite)</br>
 
 ## License
 

@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Saira:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap");
+@import url("https://meyerweb.com/eric/tools/css/reset/reset200802.css");
+
+:root {
+  --background: #121214;
+  --input-surface: #202024;
+  --primary-mid: #8257e5;
+  --primary-light: #996dff;
+  --text-secondary: #7c7c8a;
+  --text-primary: #ffffff;
+  --heading: 700 22px/100% "Roboto", sans-serif;
+  --input-text: 500 16px/100% "Roboto", sans-serif;
+  --paragraph: 500 16px/160% "Roboto", sans-serif;
+}
+
+body {
+  align-items: center;
+  background-color: var(--background);
+  color: var(--text-primary);
+  display: flex;
+  flex-direction: column;
+  font: var(--paragraph);
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+#app {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  justify-content: center;
+}
+
+#app img {
+  max-width: 260px;
+}
+
+form {
+  display: flex;
+  gap: 12px;
+}
+
+input {
+  all: unset;
+  background: var(--input-surface);
+  border-radius: 5px;
+  min-width: 452px;
+  padding: 16px;
+}
+
+input:focus {
+  outline: 2px solid var(--primary-mid);
+  outline-offset: -2px;
+}
+
+button {
+  all: unset;
+  background: var(--primary-mid);
+  border-radius: 5px;
+  color: var(--text-primary);
+  padding: 14px 18px;
+  font-size: 24px;
+  line-height: 100%;
+}
+
+button:hover {
+  background: var(--primary-light);
+  cursor: pointer;
+}
+
+#generate {
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+#generate h2 {
+  font: var(--heading);
+}
+
+#generate p {
+  font: var(--paragraph);
+}
+
+#generate p.placeholder {
+  color: var(--text-secondary);
+}
