@@ -35,8 +35,12 @@ Shorts Summary is a web application to create a summary of short YouTube videos 
 
 ### Dependencies
 
+![axios](https://img.shields.io/badge/-v1.5.0-ffffff?style=social&label=axios)</br>
+![cors](https://img.shields.io/badge/-v2.8.5-ffffff?style=social&label=cors)</br>
+![express](https://img.shields.io/badge/-v4.18.2-ffffff?style=social&label=express)</br>
 ![nodeJS](https://img.shields.io/badge/-v16.14.0-ffffff?style=social&label=nodeJS)</br>
 ![vite](https://img.shields.io/badge/-v4.4.5-ffffff?style=social&label=Vite)</br>
+![ytdl-core](https://img.shields.io/badge/-v4.10.0-ffffff?style=social&label=ytdl-core)</br>
 
 ## License
 
