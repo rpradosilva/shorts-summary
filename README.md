@@ -30,7 +30,8 @@ Shorts Summary is a web application to create a summary of short YouTube videos 
 
 1. Clone repository
 2. Install NPM Packages `npm i`
-3. Run project `npm run web`
+3. Run backend `npm run server`
+4. Run frontend `npm run web`
 
 ### Dependencies
 

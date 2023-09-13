@@ -5,21 +5,18 @@
   "type": "module",
   "scripts": {
     "web": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "server": "node --watch server/index.js"
   },
   "devDependencies": {
     "vite": "^4.4.5"
   },
-  "description": "<div align=\"center\">\r     <img src=\".github/logo.png\" alt=\"Logo Repo\">\r     <h2></h2>\r     A web application to create a summary of YouTube shorts using AI.\r </div>\r <br>\r <div align=\"center\">",
+  "description": "A web application to create a summary of YouTube shorts using AI",
   "main": "index.html",
   "dependencies": {
-    "esbuild": "^0.18.20",
-    "nanoid": "^3.3.6",
-    "picocolors": "^1.0.0",
-    "postcss": "^8.4.29",
-    "rollup": "^3.29.1",
-    "source-map-js": "^1.0.2"
+    "axios": "^1.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "ytdl-core": "4.10.0"
   },
   "repository": {
     "type": "git",
