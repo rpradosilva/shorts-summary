@@ -20,7 +20,7 @@ Shorts Summary is a web application to create a summary of short YouTube videos 
 
 - Identify, validate and download Youtube Shorts URL
 - Convert and extract audio: `.mp4` to `wav`
-- Summarize and resume video to text with IA
+- Transcribe and summarize with IA
 
 ## Getting Started
 
