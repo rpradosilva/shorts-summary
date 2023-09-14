@@ -18,7 +18,9 @@ Shorts Summary is a web application to create a summary of short YouTube videos 
 
 ### Features
 
-- [under construction]
+- Identify, validate and download Youtube Shorts URL
+- Convert and extract audio: `.mp4` to `wav`
+- Summarize and resume video to text with IA
 
 ## Getting Started
 
@@ -32,15 +34,21 @@ Shorts Summary is a web application to create a summary of short YouTube videos 
 2. Install NPM Packages `npm i`
 3. Run backend `npm run server`
 4. Run frontend `npm run web`
+5. Open frontend localhost `default: http://localhost:5173/`
+6. Insert YTShort URL in portugues `ex: https://www.youtube.com/shorts/_qF7vGPVNso`
 
 ### Dependencies
 
-![axios](https://img.shields.io/badge/-v1.5.0-ffffff?style=social&label=axios)</br>
-![cors](https://img.shields.io/badge/-v2.8.5-ffffff?style=social&label=cors)</br>
-![express](https://img.shields.io/badge/-v4.18.2-ffffff?style=social&label=express)</br>
-![nodeJS](https://img.shields.io/badge/-v16.14.0-ffffff?style=social&label=nodeJS)</br>
-![vite](https://img.shields.io/badge/-v4.4.5-ffffff?style=social&label=Vite)</br>
-![ytdl-core](https://img.shields.io/badge/-v4.10.0-ffffff?style=social&label=ytdl-core)</br>
+![axios](https://img.shields.io/badge/-v1.5.0-ffffff?style=social&label=axios)
+![cors](https://img.shields.io/badge/-v2.8.5-ffffff?style=social&label=cors)
+![express](https://img.shields.io/badge/-v4.18.2-ffffff?style=social&label=express)
+![ffmpeg-static](https://img.shields.io/badge/-v5.2.0-ffffff?style=social&label=ffmpeg-static)
+![fluent-ffmpeg](https://img.shields.io/badge/-v2.1.2-ffffff?style=social&label=fluent-ffmpeg)
+![node-wav](https://img.shields.io/badge/-v0.0.2-ffffff?style=social&label=node-wav)
+![nodeJS](https://img.shields.io/badge/-v16.14.0-ffffff?style=social&label=nodeJS)
+![vite](https://img.shields.io/badge/-v4.4.5-ffffff?style=social&label=Vite)
+![ytdl-core](https://img.shields.io/badge/-v4.10.0-ffffff?style=social&label=ytdl-core)
+![@xenova/transformers](https://img.shields.io/badge/-v2.6.0-ffffff?style=social&label=@xenova/transformers)</br>
 
 ## License
 

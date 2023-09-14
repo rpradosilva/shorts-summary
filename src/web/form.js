@@ -19,13 +19,12 @@ form.addEventListener("submit", async (event) => {
 
     const transcription = await server.get(`/summary/${videoId}`);
 
-    title.classList.remove("loading");
-    content.classList.remove("loading");
-
     const summary = await server.post("/summary", {
       text: transcription.data.result,
     });
 
+    title.classList.remove("loading");
+    content.classList.remove("loading");
     title.textContent = "Resumo";
     content.textContent = summary.data.result;
   } else {
