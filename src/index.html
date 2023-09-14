@@ -10,17 +10,24 @@
 
 <body>
   <div id="app">
-    <img src="/logo.svg" alt="Logo Shorts Summary">
+    <a href="/">
+      <img src="/logo.svg" alt="Logo Shorts Summary">
+    </a>
+
     <form id="form">
-      <input type="url" id="url" placeholder="URL do vídeo">
-      <button>
+      <div class="input">
+        <input type="url" id="url" placeholder="URL do vídeo">
+        <small></small>
+      </div>
+
+      <button title="Resumir">
         <i class="ph ph-play"></i>
       </button>
     </form>
 
     <div id="generate">
-      <h2>Resumo</h2>
-      <p class="placeholder">O resumo está sendo gerado. Aguarde...</p>
+      <h2></h2>
+      <p class="placeholder"></p>
     </div>
   </div>
   <script type="module" src="web/main.js"></script>

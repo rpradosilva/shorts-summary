@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "web": "vite",
-    "server": "env YTDL_NO_UPDATE=1 node --watch --no-warnings server/index.js"
+    "web": "vite src/",
+    "server": "env YTDL_NO_UPDATE=1 node --watch --no-warnings src/server/index.js"
   },
   "devDependencies": {
     "vite": "^4.4.5"
