@@ -22,8 +22,12 @@ form.addEventListener("submit", async (event) => {
     title.classList.remove("loading");
     content.classList.remove("loading");
 
+    const summary = await server.post("/summary", {
+      text: transcription.data.result,
+    });
+
     title.textContent = "Resumo";
-    content.textContent = transcription.data.result;
+    content.textContent = summary.data.result;
   } else {
     title.classList.remove("loading");
     content.classList.remove("loading");

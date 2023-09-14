@@ -7,7 +7,7 @@
   --alert: #e55757;
   --primary-mid: #8257e5;
   --primary-light: #996dff;
-  --text-secondary: #7c7c8a;
+  --text-secondary: #cfcfd1;
   --text-primary: #ffffff;
   --heading: 700 22px/100% "Roboto", sans-serif;
   --input-text: 500 16px/100% "Roboto", sans-serif;
@@ -94,12 +94,9 @@ button:hover {
 }
 
 #generate p {
+  color: var(--text-secondary);
   font: var(--paragraph);
   max-width: var(--fullpage);
-}
-
-#generate p.placeholder {
-  color: var(--text-secondary);
 }
 
 h2.loading,
