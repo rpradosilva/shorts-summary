@@ -8,7 +8,7 @@
     "server": "env YTDL_NO_UPDATE=1 node --watch --no-warnings src/server/index.js"
   },
   "devDependencies": {
-    "vite": "^4.4.12"
+    "vite": "^4.5.2"
   },
   "description": "A web application to create a summary of YouTube shorts using AI",
   "main": "index.html",
