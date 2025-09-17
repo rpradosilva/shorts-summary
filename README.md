@@ -46,7 +46,7 @@ Shorts Summary is a web application to create a summary of short YouTube videos 
 ![fluent-ffmpeg](https://img.shields.io/badge/-v2.1.2-ffffff?style=social&label=fluent-ffmpeg)
 ![node-wav](https://img.shields.io/badge/-v0.0.2-ffffff?style=social&label=node-wav)
 ![nodeJS](https://img.shields.io/badge/-v16.14.0-ffffff?style=social&label=nodeJS)
-![vite](https://img.shields.io/badge/-v4.4.5-ffffff?style=social&label=Vite)
+![vite](https://img.shields.io/badge/-v5.4.20-ffffff?style=social&label=Vite)
 ![ytdl-core](https://img.shields.io/badge/-v4.10.0-ffffff?style=social&label=ytdl-core)
 ![@xenova/transformers](https://img.shields.io/badge/-v2.6.0-ffffff?style=social&label=@xenova/transformers)</br>
 
